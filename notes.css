@@ -1,0 +1,34 @@
+.parent {
+    text-align: center;
+}
+input {
+    padding: 10px;
+    margin: 5px 0 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 50%;
+}
+#note-table {
+    width: 100%; 
+    border-collapse: collapse; 
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+}
+#note-table th, #note-table td {
+    padding: 12px 15px; 
+    text-align: left; 
+    /* border: 1px solid #ddd;  */
+}
+
+#note-table th {
+    background-color: #007bff;
+    color: white; 
+    font-weight: bold; 
+}
+
+#note-table tr:hover {
+    background-color: #e1e1e1; 
+}
+#note-table tr {
+height: 80px;
+}
